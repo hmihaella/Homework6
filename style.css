@@ -11,14 +11,15 @@ body {
   border-radius: 1rem;
   width: 70vw;
   height: 30rem;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   inset-block-start: 50%;
   inset-inline-start: 50%;
   transform: translate(-50%, -50%);
   display: grid;
   grid-template-areas:
     "h1"
-    "text";
+    "text"
+    "btn-am";
 }
 
 h1 {
@@ -74,6 +75,8 @@ h1 {
   scrollbar-color: white;
   border-block-start: solid 0.1rem white;
   border-block-end: solid 0.1rem white;
+  width: fit-content;
+  block-size: fit-content;
 }
 
 .container::-webkit-scrollbar {
