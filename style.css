@@ -9,8 +9,7 @@ body {
   box-sizing: border-box;
   position: fixed;
   border-radius: 1rem;
-  max-width: 54rem;
-  width: 74vw;
+  width: 70vw;
   height: 30rem;
   padding: 1rem 2rem;
   inset-block-start: 50%;
@@ -19,8 +18,7 @@ body {
   display: grid;
   grid-template-areas:
     "h1"
-    "paragraf"
-    "btn-ai";
+    "paragraf";
 }
 
 h1 {
@@ -59,6 +57,7 @@ h1 {
 
 .btn-am {
   color: black;
+  background-color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
