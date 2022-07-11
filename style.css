@@ -71,12 +71,10 @@ h1 {
 .text {
   color: white;
   overflow: auto;
-  scrollbar-width: thin;
-  scrollbar-color: white;
   border-block-start: solid 0.1rem white;
   border-block-end: solid 0.1rem white;
   width: fit-content;
-  block-size: fit-content;
+  align-self: stretch;
 }
 
 .container::-webkit-scrollbar {
