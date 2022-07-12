@@ -15,11 +15,8 @@ body {
   inset-block-start: 50%;
   inset-inline-start: 50%;
   transform: translate(-50%, -50%);
-  display: grid;
-  grid-template-areas:
-    "h1"
-    "text"
-    "btn-am";
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
